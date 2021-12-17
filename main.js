@@ -1,6 +1,6 @@
-window.addEventListener("DOMContentLoaded", function (event) {
-    console.log("DOM fully loaded and parsed");
-  });
+window.addEventListener('DOMContentLoaded', function (event) {
+  document.getElementById("calc_btn").addEventListener("click", calculate)  
+})
   
   function calculate() {
     let firstProduct = Number(document.getElementById("firstProduct").value);
